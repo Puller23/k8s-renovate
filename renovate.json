@@ -3,6 +3,17 @@
   "extends": [
     "config:base"
   ],
+  "enabled": true,
+  "timezone": "Europe/Berlin",
+  "dependencyDashboard": true,
+  "dependencyDashboardTitle": "Renovate Dashboard",
+  "commitBodyTable": true,
+  "helm-values": {
+    "fileMatch": ["./.+\\.yaml$"],
+    "ignorePaths": [
+      "**/archive/**"
+    ]
+  },
   "kubernetes": {
     "fileMatch": ["\\.yaml$"]
   }
