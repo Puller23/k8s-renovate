@@ -16,5 +16,8 @@
   },
   "kubernetes": {
     "fileMatch": ["\\.yaml$"]
+  },
+  "docker-compose": {
+    "fileMatch": ["(^|/)(?:docker-)?compose[^/]*\\.ya?ml,j2$"]
   }
 }
