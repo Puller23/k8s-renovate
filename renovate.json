@@ -4,6 +4,7 @@
     "config:base"
   ],
   "enabled": true,
+  "enabledManagers": ["dockerfile", "kubernetes", "helm-values", "docker-compose"]
   "timezone": "Europe/Berlin",
   "dependencyDashboard": true,
   "dependencyDashboardTitle": "Renovate Dashboard",
