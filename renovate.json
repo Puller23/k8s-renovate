@@ -18,6 +18,6 @@
     "fileMatch": ["\\.yaml$"]
   },
   "docker-compose": {
-    "fileMatch": ["(^|/)(?:docker-)?compose[^/]*\\.ya?ml,j2$"]
+    "fileMatch": ["(^|/)(?:docker-)?compose[^/]*\\.ya?ml.j2$"]
   }
 }
